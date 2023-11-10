@@ -2,8 +2,8 @@
 
 <p align="center"><img src="framework.png" width="80%" alt="" /></p>
 
-> [**Efficient Hierarchical Multi-view Fusion Transformer for 3D Human Pose Estimation**](https://dl.acm.org/doi/pdf/10.1145/3581783.3612098),
-> Kangkang Zhou, Lijun Zhang, Feng Lu, Xiang-Dong Zhou, Yu Shi,
+> [**Efficient Hierarchical Multi-view Fusion Transformer for 3D Human Pose Estimation**](https://dl.acm.org/doi/pdf/10.1145/3581783.3612098),        
+> Kangkang Zhou, Lijun Zhang, Feng Lu, Xiang-Dong Zhou, Yu Shi,        
 > *MM '23: Proceedings of the 31st ACM International Conference on Multimedia*
 
 ## Installation
