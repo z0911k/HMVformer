@@ -1,6 +1,6 @@
 # Efficient Hierarchical Multi-view Fusion Transformer for 3D Human Pose Estimation [ACMMM 2023]
 
-<p align="center"><img src="framework.png" width="80%" alt="" /></p>
+<p align="center"><img src="framework.png" width="65%" alt="" /></p>
 
 > [**Efficient Hierarchical Multi-view Fusion Transformer for 3D Human Pose Estimation**](https://dl.acm.org/doi/pdf/10.1145/3581783.3612098),        
 > Kangkang Zhou, Lijun Zhang, Feng Lu, Xiang-Dong Zhou, Yu Shi,        
@@ -44,6 +44,16 @@ To train a model on Human3.6M:
 ```bash
 python main.py --frames 27 --batch_size 1024 --nepoch 50 --lr 0.0002 
 ```
+
+## Citation
+If you find our work useful in your research, please consider citing:
+
+    @inproceedings{10.1145/3581783.3612098,
+      author = {Zhou, Kangkang and Zhang, Lijun and Lu, Feng and Zhou, Xiang-Dong and Shi, Yu},
+      title = {Efficient Hierarchical Multi-View Fusion Transformer for 3D Human Pose Estimation},
+      year = {2023},
+      pages = {7512–7520},
+    }
 
 ## Acknowledgement
 
