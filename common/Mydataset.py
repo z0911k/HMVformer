@@ -330,9 +330,9 @@ class Fusion(data.Dataset):
     
     def hop_normalize(self, x1, x2, x3, x4):
         x1 = x1 / torch.sum(x1, dim=1)
-        x2 = x2 / torch.sum(x1, dim=1)
-        x3 = x3 / torch.sum(x1, dim=1)
-        x4 = x4 / torch.sum(x1, dim=1)
+        x2 = x2 / torch.sum(x2, dim=1)
+        x3 = x3 / torch.sum(x3, dim=1)
+        x4 = x4 / torch.sum(x4, dim=1)
         return torch.cat((x1.unsqueeze(0), x2.unsqueeze(0), x3.unsqueeze(0), x4.unsqueeze(0)), dim=0)
 
     def __len__(self):
